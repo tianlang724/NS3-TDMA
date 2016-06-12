@@ -329,8 +329,8 @@ TdmaExample::CaseRun (uint32_t nWifis, uint32_t nSinks, double totalTime, std::s
   CreateDevices (tr_name,usingWifi,txpDistance);
   //SetupMobilityGrid();
   SetupMobility();
-  InstallInternetStackDsdv ();
-  //InstallInternetStackAodv ();
+  //InstallInternetStackDsdv ();
+  InstallInternetStackAodv ();
   //InstallInternetStackDsr();
   InstallMyApplications ();
   InstallFlowMonitor();
